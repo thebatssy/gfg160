@@ -3,7 +3,6 @@
 class Solution {
   public:
     int maximumProfit(vector<int> &prices) {
-        // code here
         int maxProfit = 0, bestBuy = prices[0]; 
         
         for (int i = 1; i < prices.size(); i++){
@@ -14,4 +13,5 @@ class Solution {
         }
         return maxProfit;
     }
+
 };
