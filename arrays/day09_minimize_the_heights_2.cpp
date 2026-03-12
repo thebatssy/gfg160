@@ -8,7 +8,6 @@ class Solution {
         
         sort(arr.begin(), arr.end());
         int ans =  arr[n-1] - arr[0];
-        
         int smllst = arr[0] + k, lrgst = arr[n-1] - k;
         
         for (int i = 0; i < n-1; i++){
@@ -20,4 +19,5 @@ class Solution {
         }
         return ans;
     }
+
 };
